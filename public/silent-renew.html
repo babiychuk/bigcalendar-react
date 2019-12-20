@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/oidc-client/1.5.4/oidc-client.js"></script>
+<script>    
+    new Oidc.UserManager({ loadUserInfo: true, filterProtocolClaims: true })
+        .signinSilentCallback()
+            .catch(function (error) {
+                console.error(error);
+            });
+</script>
+</head>
+<body>    
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* Load in your font */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons'); */
+
+.tree-wrapper {   
+  height: 500px;
+} 
+
+/* .tree-wrapper {
+  height: calc(100% - 25px);
+} */
+
+.tab{
+  font-weight: 400;
+}
+.tab::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+}
+.menu-price{
+  text-align: right;
+  color: #c62828;  
+  display: inline-block;
+  width: 60px !important;
+  padding-right: 16px;
+}
+
+.rstcustom__collapseButton::after, 
+.rstcustom__expandButton::after {
+  border-top-color:#1876d2;   
+}
